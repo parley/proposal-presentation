@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+
+<html manifest="cache.manifest"> 
+  <head> 
+    
+    <meta charset="utf-8" /> 
+    <title>HTML5 presentation</title> 
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="proposal.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/fonts.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="proposal.js"></script>
+
+  </head> 
+  <body onload="js();"> 
+    <div class="presentation"> 
+      <div id="presentation-counter"></div> 
+      <div class="slides">
+        
+        <div class="slide"> 
+          <section class="middle"> 
+            <h1 class="parley">Parley</h1> 
+            <p>An object-oriented approach to concurrent programming</p> 
+          </section> 
+        </div>
+
+        <div class="slide">
+          <header>The Problem</header>
+          <section>
+          <ul>
+            <li>Concurrent Hardware is becoming increasingly popular</li>
+            <li>But language support is inconsistent</li>
+              <ul>
+                <li>Threads in Java and C++</li>
+                <li>Global Interpreter Lock in Ruby and Python</li>
+              </ul>
+          </ul>
+          <section/>
+        </div>
+      </div>
+    </div>
+
+    
+  </body> 
+</html>
