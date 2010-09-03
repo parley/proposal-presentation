@@ -42,14 +42,67 @@
                 <li>Actors in Erlang</li>
               </ul>
             </li>
-              
           </ul>
           <section/>
         </div>
 
         <div class="slide">
-          
+          <header>The Proposal</header>
+          <h2>A new language built for concurrent computation with familiar concepts</h2>
+          <ul>
+            <li>Purely object-oriented (based on Prototypes)</li>
+            <li>Implicitly parallel (objects as Actors)</li>
+            <li>Designed for uniformity and fliexibility
+              <ul>
+                <li>Homoiconic syntax ad object model</li>
+                <li>Dynamic typing and garbage collection</li>
+                <li>All language constructs are first class</li>
+              </ul>
+            </li>
+          </ul>
         </div>
+
+        <div class="slide">
+          <header>The Actor Model</header>
+          <ul>
+            <li>Established model of parallel computation</li>
+            <li>A program is a set of independent Actors</li>
+            <li>Actors respond to messages by
+              <ul>
+                <li>sending messages to other Actors</li>
+                <li>creating new Actors</li>
+                <li>designating behavior to be used for the next message</li>
+              </ul>
+            </li>
+            <li>Nothing is shared. Only communication is via messages.</li>
+          </ul>
+        </div>
+
+        <div class="slide">
+          <header>Prototypes</header>
+          <ul>
+            <li>Objects without classes</li>
+            <li>Create new objects by cloning existing objects
+              <ul>
+                <li>New object is an exact copy of parent object</li>
+                <li>Behavior is shared by "delegation"</li>
+                <li>Removes inheritance and favors composition</li>
+              </ul>
+            </li>
+            <li>Programs are a set of interacting objects</li>
+            <li>Popular languages include JavaScript, Lua and Io</li>
+          </ul>
+        </div>
+
+        <div class="slide">
+          <blockquote>
+            Smalltalk is not only not its syntax or the class library, it is not enough about
+            classes. I'm sorry that I long ago coined the term "objects" for this topic because it
+            gets many people to focus on the lesser idea. The big idea is "messaging". That is what
+            the kernel of Smalltalk is all about.
+          </blockquote>
+        </div>
+        
       </div>
     </div>
 
