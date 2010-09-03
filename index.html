@@ -6,6 +6,7 @@
     <meta charset="utf-8" /> 
     <title>HTML5 presentation</title> 
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,italic" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="proposal.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/fonts.css" type="text/css" media="screen" />
     <script type="text/javascript" src="proposal.js"></script>
@@ -25,7 +26,7 @@
 
         <div class="slide">
           <header>The Problem</header>
-          <section>
+          <section class="summary">
           <ul>
             <li>Concurrent Hardware is becoming increasingly popular</li>
             <li>But language support is inconsistent
@@ -48,6 +49,7 @@
 
         <div class="slide">
           <header>The Proposal</header>
+          <section>
           <h2>A new language built for concurrent computation with familiar concepts</h2>
           <ul>
             <li>Purely object-oriented (based on Prototypes)</li>
@@ -60,10 +62,13 @@
               </ul>
             </li>
           </ul>
+          </section>
         </div>
 
         <div class="slide">
           <header>The Actor Model</header>
+          <section>
+            <img src="actor.png" class="icon" alt="Actor" />
           <ul>
             <li>Established model of parallel computation</li>
             <li>A program is a set of independent Actors</li>
@@ -76,10 +81,12 @@
             </li>
             <li>Nothing is shared. Only communication is via messages.</li>
           </ul>
+          </section>
         </div>
 
         <div class="slide">
           <header>Prototypes</header>
+          <section>
           <ul>
             <li>Objects without classes</li>
             <li>Create new objects by cloning existing objects
