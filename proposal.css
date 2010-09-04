@@ -452,3 +452,11 @@ img.icon {
 img.full {
     height:80%;
     }
+
+a.resource {
+    font-family: "Inconsolata", Monospace;
+    color: blue;
+    decoration: underline;
+    margin-bottom:1em;
+    font-size:150%;
+    }
