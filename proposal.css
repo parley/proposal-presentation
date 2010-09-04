@@ -431,6 +431,11 @@ blockquote {
 
 img.icon {
     float:right;
-    height: 15em;
-    margin-right:5%;
+    height: 10em;
+    margin-right:7%;
+    margin-top:1em;
+    }
+
+img.full {
+    height:80%;
     }
