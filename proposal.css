@@ -1,3 +1,37 @@
+/* Fonts */
+@font-face {
+    font-family: "Fontin";
+    src: url(fonts/Fontin/Fontin-Regular.otf) format("opentype")
+}
+
+@font-face {
+    font-family: "Fontin";
+    font-weight:bold;
+    src: url(fonts/Fontin/Fontin-Bold.otf) format("opentype")
+}
+
+@font-face {
+    font-family: "Fontin";
+    font-style:italic;
+    src: url(fonts/Fontin/Fontin-Italic.otf) format("opentype")
+}
+
+@font-face {
+    font-family: "Fontin";
+    font-variant: small-caps
+    src: url(fonts/Fontin/Fontin-SmallCaps.otf) format("opentype")
+}
+
+@font-face {
+	font-family: "CloisterBlack";
+	src: url('fonts/CloisterBlack/CloisterBlack.eot');
+	src: local('☺'), url('fonts/CloisterBlack/CloisterBlack.woff') format('woff'), url('fonts/CloisterBlack/CloisterBlack.ttf') format('truetype'), url('fonts/CloisterBlack/CloisterBlack.svg#webfontURGgOlCQ') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Styles */
+
 body {
     font: 20px Verdana, sans-serif;
     padding: 0;
