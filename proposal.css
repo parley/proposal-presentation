@@ -177,7 +177,7 @@ h2 {
     color: black;
     font-size: 120%;
     padding: 0;
-    margin: 1em;
+    margin: 1em 0 0 1em;
 }
 
 /* h2:first-child { */
@@ -207,7 +207,7 @@ a {
 }
 
 ul {
-    margin-left: 5%;
+    margin: 0 0 0 5%;
     padding: 0;
 }
 
